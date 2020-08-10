@@ -142,7 +142,7 @@ public class EndToEnd extends BaseClass {
 		}
 		else System.out.println("There is no flight below - "+Price);
 		
-		//Click on Apply 
+		//Click on Apply . 
 		//driver.findElement(By.xpath("//*[text()='APPLY']")).click();
 		page1.getApply().click();
 
