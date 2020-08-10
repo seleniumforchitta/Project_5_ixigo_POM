@@ -1,4 +1,4 @@
-package Pages;
+package com.ixigo.Pages;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;

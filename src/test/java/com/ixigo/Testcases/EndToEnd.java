@@ -7,6 +7,8 @@
 	Select Non-Stop in Stops filter option
 	Print the list of airlines details (Only Airline Number, Departure Time and Fare) having fare < 5000
 	Note – Create a Maven project using POM design pattern and Use TestNG as a framework
+	
+	Note - README.TXT is updated with the expected result.
  */
 package com.ixigo.Testcases;
 
@@ -24,8 +26,8 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
-import Pages.BaseClass;
-import Pages.Ixigo_Front_Page;
+import com.ixigo.Pages.BaseClass;
+import com.ixigo.Pages.Ixigo_Front_Page;
 
 public class EndToEnd extends BaseClass {
 	
@@ -79,7 +81,7 @@ public class EndToEnd extends BaseClass {
 		
 		//New Page
 		
-		WebDriverWait d = new WebDriverWait(driver, 20);
+		WebDriverWait d = new WebDriverWait(driver, 60);
 		d.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//*[@class='fltrs-cntnr']")));
 		System.out.println("Page is loaded successfully");
 		

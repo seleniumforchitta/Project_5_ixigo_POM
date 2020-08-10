@@ -1,4 +1,4 @@
-package Pages;
+package com.ixigo.Pages;
 
 import java.util.concurrent.TimeUnit;
 

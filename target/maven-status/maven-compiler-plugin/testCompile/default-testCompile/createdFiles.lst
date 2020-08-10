@@ -1,3 +1,3 @@
-Pages\Ixigo_Front_Page.class
+com\ixigo\Pages\BaseClass.class
+com\ixigo\Pages\Ixigo_Front_Page.class
 com\ixigo\Testcases\EndToEnd.class
-Pages\BaseClass.class
